@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>To-Do List App</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">TO DO LIST 📋</h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" class="task-input" placeholder="Add a new task">
+            
+            <!-- Add a dropdown for priority -->
+            <select id="prioritySelect" class="priority-select">
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+            </select>
+            
+            <!-- Add an input for due date -->
+            <input type="date" id="dueDateInput" class="due-date-input">
+            
+            <!-- Update the button click event to pass the priority and due date -->
+            <button id="addTaskButton" onclick="addTask()" class="add-task-button">Add Task</button>
+        </div>
+        <ul id="taskList" class="task-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://img.freepik.com/free-vector/dark-black-background-design-with-stripes_1017-38064.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #c0c0c0;
+    padding: 40px;
+    border-radius: 8px;
+    border: 10px solid #2c2a2a; 
+    box-shadow: 0 0 10px rgba(21, 20, 20, 0.1);
+    width: 45%; 
+    margin: 0 auto; 
+}
+
+.title {
+    color: #1a1616;
+    padding-bottom: 20px;
+}
+
+input, select {
+    padding: 13px;
+    margin-right: 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.add-task-button {
+    background-color: #1c211c; 
+    color:#efe4e4; 
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 13px; 
+    cursor: pointer;
+}
+
+.add-task-button:hover {
+    background-color: #040404; 
+    color: #e7e3e3; 
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin: 8px 0;
+    font-weight: bold;
+    border: 2px solid #b5a9a9;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+li:hover {
+    background-color: #e9e8e8; 
+}
+
+li .priority {
+    margin-left: auto;
+    margin-right: 30px;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+li .due-date {
+    margin-left: 10px; 
+    margin-right: 30px; 
+    font-weight: bold;
+}
+
+li button.edit-task-button {
+    margin-left:  10px;
+    margin-right:  30px;
+}
+
+li button {
+    background-color: #f1e6e6; 
+    color:#221e1e; 
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px; 
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #b0a7a7; 
+    color: #282121; 
+}
+
+
